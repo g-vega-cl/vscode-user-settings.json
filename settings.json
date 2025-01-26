@@ -1,0 +1,51 @@
+{
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "a47c7ec8-2916-4afe-8fce-1d201ce0560d",
+    "projectKey": ""
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "scm.showHistoryGraph": false,
+  "application.shellEnvironmentResolutionTimeout": 40,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.chat.followUps": "always",
+  "github.copilot.renameSuggestions.triggerAutomatically": true,
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "text": "Always explain your thought process"
+    },
+    {
+      "text": "Use guard clauses instead of nested if statements."
+    },
+    {
+      "text": "Delete unused code."
+    }
+  ],
+  "github.copilot.chat.testGeneration.instructions": [
+    {
+      "text": "Use Jest"
+    }
+  ],
+  "github.copilot.chat.reviewSelection.enabled": true,
+  "github.copilot.chat.reviewSelection.instructions": [
+    {
+      "text": "Resolve all TODO tasks."
+    },
+    {
+      "text": "Use guard clauses instead of nested if statements."
+    },
+    {
+      "text": "Delete unused code."
+    }
+  ]
+}
