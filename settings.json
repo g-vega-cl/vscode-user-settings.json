@@ -29,6 +29,9 @@
     },
     {
       "text": "Delete unused code."
+    },
+    {
+      "text": "Add types to variables and functions."
     }
   ],
   "github.copilot.chat.testGeneration.instructions": [
@@ -46,6 +49,9 @@
     },
     {
       "text": "Delete unused code."
+    },
+    {
+      "text": "Add types to variables and functions."
     }
   ]
 }
